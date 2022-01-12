@@ -157,7 +157,7 @@ cfg_tokio!{
     pub use spawner::use_tokio::Tokio;
 }
 
-mod spawner;
+pub mod spawner;
 mod usage;
 
 cfg_any_spawner!{
